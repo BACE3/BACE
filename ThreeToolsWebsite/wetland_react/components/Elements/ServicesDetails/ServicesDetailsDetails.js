@@ -2,8 +2,11 @@ import React from 'react'
 import Link from 'next/link'
 
 export default function ServicesDetailsDetails() {
-   const nestedStyle = {
-      paddingLeft: '5px'
+   const nestedOneTab = {
+      marginLeft: '50px'
+   }
+   const nestedTwoTabs = {
+      marginLeft: '100px'
    }
     return (
         <section className="services__details pt-115 pb-100">
@@ -71,7 +74,7 @@ export default function ServicesDetailsDetails() {
                                  <li className="wow fadeInUp" data-wow-delay=".4s">Use the refresh button to reload the panel</li>
                                  <li className="wow fadeInUp" data-wow-delay=".5s">Use the visibility icons to toggle entities on and off</li>
                                  <li className="wow fadeInUp" data-wow-delay=".6s">For Scenes and 3D Objects / Entities: </li>
-                                       <li className="wow fadeInUp" data-wow-delay=".6s">Developers can view the Type, UUID, and Name properties</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Developers can view the Type, UUID, and Name properties</li>
                                  <li className="wow fadeInUp" data-wow-delay=".7s">For Cameras:</li>
                               </ul>
                         </div>

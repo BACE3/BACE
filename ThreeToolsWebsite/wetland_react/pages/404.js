@@ -1,11 +1,11 @@
 import React from 'react'
 import ErrorArea from '../components/Elements/Settings/ErrorArea'
-import Layout4 from '../components/Layout/Layout4'
+import Layout from '../components/Layout/Layout'
 
 export default function Custom404() {
     return (
-        <Layout4>            
+        <Layout>            
             <ErrorArea/>
-        </Layout4>
+        </Layout>
     )
 }
