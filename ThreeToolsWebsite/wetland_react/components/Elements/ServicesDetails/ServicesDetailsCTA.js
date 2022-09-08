@@ -13,7 +13,7 @@ export default function ServicesDetailsCTA() {
                      <div className="cta__content-4 text-center">
                         <div className="section__title-wrapper section__title-wrapper-4 section__title-white text-center mb-45 wow fadeInUp" data-wow-delay=".3s">
                            <h2 className="section__title section__title-4">See something missing from our documentation?</h2>
-                           <Link href='/contact'><p>Contact us with the changes!</p></Link>
+                           <p><a className="hyperlink" href="/contact">Contact us</a> with the changes!</p>
                         </div>
                         {/* <div className="cta__form mb-25 wow fadeInUp" data-wow-delay=".5s">
                            <form action="#">

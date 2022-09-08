@@ -16,6 +16,7 @@ export default function NavBarMobile() {
                     <ul className="submenu">
                         <li><Link href="/about"><a>About Us</a></Link></li>
                         <li><Link href="/team"><a>Meet the Team</a></Link></li>
+                        <li><Link href="/demo"><a>Demo</a></Link></li>
                     </ul>
                 </li>
                 <li>

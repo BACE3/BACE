@@ -18,6 +18,7 @@ export default function NavBarMain() {
                     <ul className="submenu">
                         <li><Link href="/services"><a>Overview</a></Link></li>
                         <li><Link href="/services-details"><a>Details</a></Link></li>
+                        <li><Link href="/demo"><a>Demo</a></Link></li>
                     </ul>
                 </li>
                 <li><a href="https://medium.com/@bacetools/451344c5b697" target="_blank">Blog</a></li>

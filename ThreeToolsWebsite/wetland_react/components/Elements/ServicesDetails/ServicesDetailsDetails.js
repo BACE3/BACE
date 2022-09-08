@@ -30,6 +30,7 @@ export default function ServicesDetailsDetails() {
                                              <li><Link href="/services-details#materials"><a>Materials Panel</a></Link></li>
                                              <li><Link href="/services-details#textures"><a>Textures Panel</a></Link></li>
                                              <li><Link href="/services-details#renderer"><a>Renderer Panel</a></Link></li>
+                                             <li><Link href="/services-details#popup"><a>Popup Cache</a></Link></li>
                                           </ul>
                                     </div>
                                  </div>
@@ -83,8 +84,8 @@ export default function ServicesDetailsDetails() {
                                     <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Within the Transform tab:</li>
                                           <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>Adjust the position, rotation and scale</li>
                                           <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>Use the Matrix Auto Update toggle to adjust whether or not changes are immediately reflected in the DOM</li>
-                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>Click the Save button to save specific properties if you would like to go back to them</li>
-                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>Click the Display Saved Data to open a popup of the saved specs as well as log those specs to your console</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>Click "Save" button to save specific properties if you would like to go back to them</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>Click "Display Saved Data" to open a popup caching these saved specs and log them to your console. Please see <a className="hyperlink" href="/services-details#popup">below</a> for a visual summary</li>
                                     <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Within the Rendering tab:</li>
                                           <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>Adjust the Render Order</li>
                                           <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>The visibility toggle here works the same way as the visibility icon</li>
@@ -202,6 +203,15 @@ export default function ServicesDetailsDetails() {
                                           <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Scene</li>
                                           <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Morph Limits</li>
                               </ul>
+                        </div>
+                        <div className="services__text" id="popup">
+                          <h3 className="wow fadeInUp" data-wow-delay=".2s">Popup Cache</h3>
+                          <p className="wow fadeInUp" data-wow-delay=".4s">Cache entity data and display it in a popup window</p>
+                          <p className="wow fadeInUp" data-wow-delay=".6s">Lists the position, rotation, and scale data of selected entities</p>
+                        </div>
+                        <div className="services__img mb-45 w-img wow fadeInUp" data-wow-delay=".6s">
+                              <img src="/img/services/details/services-05.png" alt=""/>
+                              <p style={{ fontSize: '11px' }}>Credits to<a className="hyperlink" href="https://threejs.org/examples/webgl_animation_keyframes.html" target="_blank"> three.js Project Sample.</a> Click for more info.</p>
                         </div>
                      </div>
                   </div>

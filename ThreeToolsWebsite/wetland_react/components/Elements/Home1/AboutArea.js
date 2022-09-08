@@ -66,7 +66,7 @@ export default function AboutArea() {
                         <li>Added Camera Properties</li>
                         <li>Ability to save transform properties for scene entities</li>
                      </ul>
-                     <Link href="/contact"><a className="w-btn w-btn-3 w-btn-1">Get Started</a></Link>
+                     <Link href="/demo"><a className="w-btn w-btn-3 w-btn-1">Get Started</a></Link>
                   </div>
                </div>
             </div>

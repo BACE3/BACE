@@ -45,7 +45,7 @@ export default function ServicesServicesArea() {
                               <img src="/img/icon/services/home-2/services-2.png" alt=""/>
                            </div>
                            <div className="services__content-2">
-                              <h3 className="services__title-2"><Link href="https://github.com/oslabs-beta/BACE"><a>Github</a></Link></h3>
+                              <h3 className="services__title-2"><Link href="https://github.com/oslabs-beta/BACE"><a>GitHub</a></Link></h3>
                               <p className="contribute-policy">Create new branches and open pull requests to contribute. Check out our <a className="hyperlink" href="https://github.com/oslabs-beta/BACE#to-contribute" target="_blank">contribution policy</a> outlined in our GitHub repository!</p>
                            </div>
                         </div>

@@ -37,7 +37,7 @@ export default function Accordion() {
 
   ];
   return (
-    <div className="faq__wrapper" data-wow-delay="0.3s">
+    <div className="faq__wrapper" data-wow-delay="0.5s">
       {/* <div className="accordion" id="accordionExample"> */}
 
         {defaultAccordion.map((d, i) => (
@@ -71,7 +71,7 @@ export default function Accordion() {
                   activeDefault === i ? -1 : i
                 )
               }>
-              <div className="card-body" data-wow-delay=".3s">
+              <div className="card-body" data-wow-delay=".5s">
                 <p className="m-b0">{d.text}</p>
               </div>
             </div>

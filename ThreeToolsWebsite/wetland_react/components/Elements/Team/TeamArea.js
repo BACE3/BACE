@@ -74,7 +74,7 @@ export default function TeamArea() {
                         </div>
                      </div>
                   </div>
-                  <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".9s">
+                  <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                      <div className="team__item mb-40">
                         <div className="team__thumb w-img p-relative mb-20 fix">
                            <img src="/img/team/home-2/team-4.png

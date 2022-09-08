@@ -1,4 +1,4 @@
-import Link from 'next/link'
+// import Link from 'next/link'
 import React from 'react'
 
 export default function ServicesCTAArea() {
@@ -13,7 +13,7 @@ export default function ServicesCTAArea() {
                      <div className="cta__content-4 text-center">
                         <div className="section__title-wrapper section__title-wrapper-4 section__title-white text-center mb-45 wow fadeInUp" data-wow-delay=".3s">
                            <h2 className="section__title section__title-4">Download Three-tools Today!</h2>
-                           <p>Clone our github repository and `load unpacked` in Chrome to start!</p>
+                           <p>Clone our github repository and "load unpacked" in Chrome to start!</p>
                         </div>
                         <div className="section__title-wrapper section__title-wrapper-4 section__title-white text-center mb-25 wow fadeInUp" data-wow-delay=".5s">
                            {/* <form action="#">

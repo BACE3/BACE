@@ -9,7 +9,7 @@ export default function ServicesFeaturesArea() {
             <div className="features__shape">
                <img className="features-circle-1" src="/img/icon/features/home-1/circle-1.png" alt=""/>
             </div>
-            <div className="container">
+            <div className="container mb-100">
                <div className="row">
                   <div className="col-xxl-6 col-xl-6 col-lg-6">
                      <div className="section__title-wrapper mb-65 wow fadeInUp" data-wow-delay=".3s">
@@ -19,7 +19,7 @@ export default function ServicesFeaturesArea() {
                   </div>
                </div>
                <div className="row">
-                  <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 mr-50">
                      <div className="features__item mb-30 wow fadeInUp" data-wow-delay=".3s">
                         <div className="features__icon mb-35">
                            <span className="gradient-pink"><i className="far fa-heart-rate"></i></span>
@@ -35,7 +35,7 @@ export default function ServicesFeaturesArea() {
                         </div>
                      </div>
                   </div>
-                  <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 mr-50">
                      <div className="features__item mb-30 wow fadeInUp" data-wow-delay=".5s">
                         <div className="features__icon mb-35">
                            <span className="gradient-blue"><i className="fal fa-chart-pie-alt"></i></span>
