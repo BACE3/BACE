@@ -7,38 +7,38 @@ export default function Accordion() {
   const [activeDefault, setActiveDefault] = useState(0);
   const defaultAccordion = [
     {
-      title: "You have an error that you cannot describe or it is your first error",
+      title: "You have an error that can't be described or the first error",
       text:
-        "Reload the page the extension, this will solve most problems",
+        "Reload the page the extension. This will solve most problems.",
       bg: "primary",
     },
     {
       title: "You cannot access three-tools in your chrome extension panel",
       text:
-        "Exit out of chrome devtools inspector and re-enter",
+        "Exit out of chrome devtools inspector and re-enter.",
 
       bg: "info",
     },
     {
-      title: "You only see 'three-tools requires a page reload'",
+      title: 'You only see "three-tools requires a page reload"',
       text:
-        "Ensure your page utilizes three.js entities outside of iframes (three-tools will not recognize three.js objects inside iframes or work on pages without three.js entities)",
+        "Ensure your page utilizes three.js entities outside of iframes. Three-tools will not recognize three.js objects inside iframes or work on pages without three.js entities. The most simple fix is to use an HTML page.",
 
-      bg: "success",
+      bg: "info",
 
     },
     {
-      title: "You cannot type h into the searchbar",
+      title: 'You cannot type "h" into the searchbar',
       text:
-        "Chrome extension has a bug where h cannot be typed into our extensions searchbar, use shift h in this case",
+        'Chrome extension has a bug where "h" cannot be typed into our extensions searchbar. Use shift + "h" instead.',
 
       bg: "info",
     }
 
   ];
   return (
-    <div className="faq__wrapper wow fadeInUp" data-wow-delay="0.3s">
-      <div className="accordion" id="accordionExample">
+    <div className="faq__wrapper" data-wow-delay="0.3s">
+      {/* <div className="accordion" id="accordionExample"> */}
 
         {defaultAccordion.map((d, i) => (
           <div className="accordion-item" key={i}>
@@ -77,7 +77,7 @@ export default function Accordion() {
             </div>
           </div>
         ))}
-      </div>
+      {/* </div> */}
     </div>
 
   )

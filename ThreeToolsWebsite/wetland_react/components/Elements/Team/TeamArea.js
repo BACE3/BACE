@@ -21,16 +21,17 @@ export default function TeamArea() {
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                      <div className="team__item mb-40">
                         <div className="team__thumb w-img p-relative mb-20 fix">
-                           <a href="https://www.linkedin.com/in/emily-yunseo-bae/" target="_blank">
-                              <img src="/img/team/home-2/team-1.jpg" alt="" />
-                           </a>
+                           <img src="/img/team/home-2/team-1.png" alt="" />
 
-                           {/* <div className="team__social">
-                              <a href="https://www.linkedin.com/in/emily-yunseo-bae/" target="_blank"><i className="fab fa-facebook-f"></i></a>
-                           </div> */}
+                           <div className="team__social">
+                              <ul>
+                                 <li><a href="https://www.linkedin.com/in/emily-yunseo-bae/" target="_blank"><i className="fab fa-linkedin-in"></i></a></li>
+                                 <li><a href="https://github.com/emilybae1705" target="_blank"><i className="fab fa-github"></i></a></li>
+                              </ul>
+                           </div>
                         </div>
                         <div className="team__content">
-                           <h3 className="team__title"><Link href="/team-details"><a>Emily Bae</a></Link></h3>
+                           <h3 className="team__title">Emily Bae</h3>
                            <span className="team__position">Software Engineer</span>
                         </div>
                      </div>
@@ -38,18 +39,18 @@ export default function TeamArea() {
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                      <div className="team__item mb-40">
                         <div className="team__thumb w-img p-relative mb-20 fix">
-                           <img src="/img/team/home-2/team-2.jpg" alt=""/>
+                           <img src="/img/team/home-2/team-2.png
+                           " alt=""/>
 
                            <div className="team__social">
                               <ul>
-                                 <li><Link href="#"><a><i className="fab fa-facebook-f"></i></a></Link></li>
-                                 <li><Link href="#"><a><i className="fab fa-twitter"></i></a></Link></li>
-                                 <li><Link href="#"><a><i className="fab fa-pinterest-p"></i></a></Link></li>
+                                 {/* <li><a href="" target="_blank"><i className="fab fa-linkedin-in"></i></a></li> */}
+                                 <li><a href="https://github.com/ahoyMateyKatie" target="_blank"><i className="fab fa-github"></i></a></li>
                               </ul>
                            </div>
                         </div>
                         <div className="team__content">
-                           <h3 className="team__title"><Link href="/team-details"><a>Katie Ahn</a></Link></h3>
+                           <h3 className="team__title">Katie Ahn</h3>
                            <span className="team__position">Software Engineer</span>
                         </div>
                      </div>
@@ -57,18 +58,18 @@ export default function TeamArea() {
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                      <div className="team__item mb-40">
                         <div className="team__thumb w-img p-relative mb-20 fix">
-                           <img src="/img/team/home-2/team-3.jpg" alt=""/>
+                           <img src="/img/team/home-2/team-3.png
+                           " alt=""/>
 
                            <div className="team__social">
                               <ul>
-                                 <li><Link href="#"><a><i className="fab fa-facebook-f"></i></a></Link></li>
-                                 <li><Link href="#"><a><i className="fab fa-twitter"></i></a></Link></li>
-                                 <li><Link href="#"><a><i className="fab fa-pinterest-p"></i></a></Link></li>
+                                 <li><a href="https://www.linkedin.com/in/alyssa-chew-a19754161/" target="_blank"><i className="fab fa-linkedin-in"></i></a></li>
+                                 <li><a href="https://github.com/alyssabchew" target="_blank"><i className="fab fa-github"></i></a></li>
                               </ul>
                            </div>
                         </div>
                         <div className="team__content">
-                           <h3 className="team__title"><Link href="/team-details"><a>Alyssa Chew</a></Link></h3>
+                           <h3 className="team__title">Alyssa Chew</h3>
                            <span className="team__position">Software Engineer</span>
                         </div>
                      </div>
@@ -76,18 +77,18 @@ export default function TeamArea() {
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".9s">
                      <div className="team__item mb-40">
                         <div className="team__thumb w-img p-relative mb-20 fix">
-                           <img src="/img/team/home-2/team-4.jpg" alt=""/>
+                           <img src="/img/team/home-2/team-4.png
+                           " alt=""/>
 
                            <div className="team__social">
                               <ul>
-                                 <li><Link href="#"><a><i className="fab fa-facebook-f"></i></a></Link></li>
-                                 <li><Link href="#"><a><i className="fab fa-twitter"></i></a></Link></li>
-                                 <li><Link href="#"><a><i className="fab fa-pinterest-p"></i></a></Link></li>
+                                 <li><a href="https://www.linkedin.com/in/karleden/" target="_blank"><i className="fab fa-linkedin-in"></i></a></li>
+                                 <li><a href="https://github.com/thelucidcoder" target="_blank"><i className="fab fa-github"></i></a></li>
                               </ul>
                            </div>
                         </div>
                         <div className="team__content">
-                           <h3 className="team__title"><Link href="/team-details"><a>Karl Eden</a></Link></h3>
+                           <h3 className="team__title">Karl Eden</h3>
                            <span className="team__position">Software Engineer</span>
                         </div>
                      </div>
@@ -95,7 +96,8 @@ export default function TeamArea() {
                   {/* <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.2s">
                      <div className="team__item mb-40">
                         <div className="team__thumb w-img p-relative mb-20 fix">
-                           <img src="/img/team/home-2/team-5.jpg" alt=""/>
+                           <img src="/img/team/home-2/team-5.png
+                           " alt=""/>
 
                            <div className="team__social">
                               <ul>
@@ -114,7 +116,8 @@ export default function TeamArea() {
                   {/* <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="1.5s">
                      <div className="team__item mb-40">
                         <div className="team__thumb w-img p-relative mb-20 fix">
-                           <img src="/img/team/home-2/team-6.jpg" alt=""/>
+                           <img src="/img/team/home-2/team-6.png
+                           " alt=""/>
 
                            <div className="team__social">
                               <ul>

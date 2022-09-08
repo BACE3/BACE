@@ -11,7 +11,13 @@ export default function NavBarMobile() {
         <nav className="mean-nav" >
             <ul className="metismenu text-muted" id="metismenu">
                 <li><Link href="/"><a>Home</a></Link></li>
-                <li><Link href="/about"><a>Our Story</a></Link></li>
+                <li>
+                    <Link href="/about"><a className="has-arrow">Our Story</a></Link> {/* Documentation */}
+                    <ul className="submenu">
+                        <li><Link href="/about"><a>About</a></Link></li>
+                        <li><Link href="/team"><a>Meet the Team</a></Link></li>
+                    </ul>
+                </li>
                 <li>
                     <Link href="/services"><a className="has-arrow">Documentation</a></Link>
                     <ul className="submenu">
@@ -21,7 +27,7 @@ export default function NavBarMobile() {
                 </li>
                 <li><Link href="/team"><a>Meet the Team</a></Link></li>
                 <li><Link href="/contact"><a>Contact</a></Link></li>
-                <li><a href="https://github.com/oslabs-beta/BACE#readme" target="_blank">GitHub</a></li>
+                <li><i class="fab fa-github"><a href="https://github.com/oslabs-beta/BACE#readme" target="_blank"></a></i></li>
             </ul>
             {/* <ul className="metismenu text-muted" id="metismenu">
                 <li className="has-dropdown">

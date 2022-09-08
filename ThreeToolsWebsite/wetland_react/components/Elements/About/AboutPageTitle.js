@@ -16,10 +16,10 @@ export default function AboutPageTitle() {
               <div className="row">
                  <div className="col-xxl-12">
                     <div className="page__title-wrapper text-center">
-                       <h3>About Us </h3>
+                       <h3>About Us</h3>
                         <nav aria-label="breadcrumb">
                            <ol className="breadcrumb justify-content-center">
-                              <li className="breadcrumb-item"><Link href="/index"><a>Home</a></Link></li>
+                              <li className="breadcrumb-item"><Link href="/"><a>Home</a></Link></li>
                               <li className="breadcrumb-item active" aria-current="page">About Us</li>
                            </ol>
                         </nav>

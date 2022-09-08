@@ -68,7 +68,8 @@ export default function ServicesDetailsDetails() {
                               <p className="wow fadeInUp" data-wow-delay=".6s">Click the dropdown menu of scenes and cameras to view different entity maps. Scenes and 3D objects are currently editable but camera properties are not able to be altered.</p>
                         </div>
                         <div className="services__img mb-45 w-img wow fadeInUp" data-wow-delay=".6s">
-                              <img src="/img/services/details/services-01.jpg" alt=""/>
+                              <img src="/img/services/details/services-01.png" alt=""/>
+                              <p style={{ fontSize: '11px' }}><a href="https://threejs.org/examples/webgl_animation_multiple.html" target="_blank">Credits to three.js Project Sample. Click for more info.</a></p>
                         </div>
                         <div className="services__list mb-40">
                               <ul>
@@ -119,7 +120,8 @@ export default function ServicesDetailsDetails() {
                               <p className="wow fadeInUp" data-wow-delay=".6s">Lists the Materials rendered to the scene(s) available</p>
                         </div>
                         <div className="services__img mb-45 w-img wow fadeInUp" data-wow-delay=".6s">
-                              <img src="/img/services/details/services-01.jpg" alt=""/>
+                              <img src="/img/services/details/services-02.png" alt=""/>
+                              <p style={{ fontSize: '11px' }}><a href="https://threejs.org/examples/webgl_animation_multiple.html" target="_blank">Credits to three.js Project Sample. Click for more info.</a></p>
                         </div>
                         <div className="services__list mb-40">
                               <ul>
@@ -141,7 +143,8 @@ export default function ServicesDetailsDetails() {
                               <p className="wow fadeInUp" data-wow-delay=".6s">Lists the Textures rendered to the scene(s) available</p>
                         </div>
                         <div className="services__img mb-45 w-img wow fadeInUp" data-wow-delay=".6s">
-                              <img src="/img/services/details/services-01.jpg" alt=""/>
+                              <img src="/img/services/details/services-03.png" alt=""/>
+                              <p style={{ fontSize: '11px' }}><a href="https://threejs.org/examples/webgl_animation_multiple.html" target="_blank">Credits to three.js Project Sample. Click for more info.</a></p>
                         </div>
                         <div className="services__list mb-40">
                               <ul>
@@ -172,7 +175,8 @@ export default function ServicesDetailsDetails() {
                               <p className="wow fadeInUp" data-wow-delay=".6s">Note: this information is not always correct due to the renderer.info not being properly reset.  If the information looks incorrect, please see the three.js renderer.info documentation for further information about manually resetting your renderer.info</p>
                         </div>
                         <div className="services__img mb-45 w-img wow fadeInUp" data-wow-delay=".6s">
-                              <img src="/img/services/details/services-01.jpg" alt=""/>
+                              <img src="/img/services/details/services-04.png" alt=""/>
+                              <p style={{ fontSize: '11px' }}><a href="https://threejs.org/examples/webgl_animation_multiple.html" target="_blank">Credits to three.js Project Sample. Click for more info.</a></p>
                         </div>
                         <div className="services__list mb-40">
                               <ul>

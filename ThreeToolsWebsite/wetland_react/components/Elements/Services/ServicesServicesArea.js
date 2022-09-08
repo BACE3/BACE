@@ -33,11 +33,7 @@ export default function ServicesServicesArea() {
                            </div>
                            <div className="services__content-2">
                               <h3 className="services__title-2"><Link href="/services-details"><a>Documentation</a></Link></h3>
-                              <p>Steps to Get Started:</p>
-                              <p>Clone repository</p>
-                              <p>run `npm i`</p>
-                              <p>run `npm run build:dist:chrome`</p>
-                              <p>`load unpacked` in Chrome Extensions</p>
+                              <p className="documentation-feature"><a href="/services" target="_blank">Our documentation</a> provides an in-depth explanation of our key features.</p>
                            </div>
                         </div>
                      </div>
@@ -50,9 +46,7 @@ export default function ServicesServicesArea() {
                            </div>
                            <div className="services__content-2">
                               <h3 className="services__title-2"><Link href="https://github.com/oslabs-beta/BACE"><a>Github</a></Link></h3>
-                              <p>Create new branches and open PR's to contribute</p>
-                              <p>Use concise commit messages</p>
-                              <p>Include more details in pull requests</p>
+                              <p className="contribute-policy">Create new branches and open pull requests to contribute. Check out our <a href="https://github.com/oslabs-beta/BACE#to-contribute" target="_blank">contribution policy outlined in our GitHub repository!</a></p>
                            </div>
                         </div>
                      </div>
