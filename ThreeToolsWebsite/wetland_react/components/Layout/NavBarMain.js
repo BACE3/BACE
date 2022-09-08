@@ -14,7 +14,7 @@ export default function NavBarMain() {
                         <li><Link href="/services-details"><a>Details</a></Link></li>
                     </ul>
                 </li>
-                <li><Link href="https://github.com/oslabs-beta/BACE#readme"><a>Blog</a></Link></li> {/* Medium Blog */}
+                <li><Link href="https://github.com/oslabs-beta/BACE#readme"><a>GitHub</a></Link></li> {/* Medium Blog */}
                 <li><Link href="/team"><a>Meet the Team</a></Link></li> {/* Team profile */}
                         {/* <li><Link href="/faq"><a>Faq</a></Link></li>
                         <li><Link href="/team"><a>Team</a></Link></li>
