@@ -2,20 +2,20 @@
 import TeamCTA from "../components/Elements/Team/TeamCTA";
 import TeamDetailsArea from "../components/Elements/TeamDetails/TeamDetailsArea";
 import TeamDetailsTitle from "../components/Elements/TeamDetails/TeamDetailsTitle";
-import Layout2 from "../components/Layout/Layout2";
+import Layout from "../components/Layout/Layout";
 
 
 
 export default function TeamDetails() {
     return (
         <>
-            <Layout2>
+            <Layout>
                 {/* Main-Body Started */}
                 <TeamDetailsTitle/>
                 <TeamDetailsArea/>
                 <TeamCTA/>
                 {/* Main-Body Ended */}
-            </Layout2>
+            </Layout>
 
         </>
     )
