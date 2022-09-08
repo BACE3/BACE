@@ -19,7 +19,7 @@ export default function NavBarMobile() {
                         <li><Link href="/services-details"><a>Details</a></Link></li>
                     </ul>
                 </li>
-                <li><Link href="/blog"><a>Blog</a></Link></li>
+                <li><Link href="https://github.com/oslabs-beta/BACE#readme"><a>Blog</a></Link></li>
                 <li><Link href="/team"><a>Meet the Team</a></Link></li>
                 <li><Link href="/contact"><a>Contact</a></Link></li>
             </ul>

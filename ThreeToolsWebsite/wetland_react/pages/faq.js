@@ -1,7 +1,7 @@
 // import Loading from "../components/layout/Loading";
 import Layout from "../components/Layout/Layout";
 import FAQTitle from "../components/Elements/FAQ/FAQTitle";
-import FAQArea from "../components/Elements/Home1/FAQArea";
+import FAQArea from "../components/Elements/FAQ/FAQArea";
 import FAQPromotion from "../components/Elements/FAQ/FAQPromotion";
 
 
