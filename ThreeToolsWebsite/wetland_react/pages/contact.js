@@ -10,8 +10,8 @@ export default function contact() {
         <Layout>
             <ContactTitle/>
             <ContactArea/>
-            <ContactSupport/>
-            <ContactMap/>
+            {/* <ContactSupport/> */}
+            {/* <ContactMap/> */}
         </Layout>
     
     )

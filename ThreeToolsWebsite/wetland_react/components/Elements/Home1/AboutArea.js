@@ -16,14 +16,14 @@ export default function AboutArea() {
                   <div className="col-xxl-5 col-xl-6 col-lg-6 col-md-9">
                      <div className="about__wrapper mb-10">
                         <div className="section__title-wrapper mb-25">
-                           <h2 className="section__title">Get the Perfect Solution for Your Web.</h2>
-                           <p>Starkers pardon you knees up is Elizabeth geeza Why, quain standard  guvnor gosh cras brilliant.</p>
+                           <h2 className="section__title">Three-tools: The Perfect Solution to Your Three.js Bugs</h2>
+                           <p>Trouble debugging your three.js code?  Use Three-tools!</p>
                         </div>
                         <ul>
-                           <li>Intergate With Popular Softwares item</li>
-                           <li>Instantly Create Your Crowdfunding Platform</li>
+                           <li>Integrates Seamlessly With Other Chrome DevTools</li>
+                           <li>Instantly See Your Three.js Objects and Alter Their Properties</li>
                         </ul>
-                        <Link href="/contact"><a className="w-btn w-btn-3 w-btn-1">Get Started</a></Link>
+                        <Link href="https://github.com/oslabs-beta/BACE"><a className="w-btn w-btn-3 w-btn-1">Get Started</a></Link>
                      </div>
                   </div>
                   <div className="col-xxl-6 offset-xxl-1 col-xl-6 col-lg-6 col-md-10 order-first order-lg-last">
@@ -59,12 +59,12 @@ export default function AboutArea() {
                <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-9">
                   <div className="about__wrapper about__wrapper-2 ml-60 mb-30">
                      <div className="section__title-wrapper mb-25">
-                        <h2 className="section__title">Awesome Prototyping Tool for UI/UX.</h2>
-                        <p>Starkers pardon you knees up is Elizabeth geeza Why, quain standard  guvnor gosh cras brilliant.</p>
+                        <h2 className="section__title">Best Developer's Tool for Three.js</h2>
+                        <p>View Scenes, 3D Objects, Cameras, Geometries, Textures and Materials!</p>
                      </div>
                      <ul>
-                        <li>Intergate With Popular Softwares item</li>
-                        <li>Instantly Create Your Crowdfunding Platform</li>
+                        <li>Added Camera Properties</li>
+                        <li>Ability to save transform properties for scene entities</li>
                      </ul>
                      <Link href="/contact"><a className="w-btn w-btn-3 w-btn-1">Get Started</a></Link>
                   </div>

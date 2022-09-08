@@ -16,11 +16,11 @@ export default function ServicesTitleArea() {
               <div className="row">
                  <div className="col-xxl-12">
                     <div className="page__title-wrapper text-center">
-                       <h3> Services </h3>
+                       <h3> Features </h3>
                         <nav aria-label="breadcrumb">
                            <ol className="breadcrumb justify-content-center">
                               <li className="breadcrumb-item"><Link href="/"><a>Home</a></Link></li>
-                              <li className="breadcrumb-item active" aria-current="page">Services</li>
+                              <li className="breadcrumb-item active" aria-current="page">Features</li>
                            </ol>
                         </nav>
                     </div>

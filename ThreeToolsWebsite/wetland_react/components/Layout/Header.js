@@ -41,7 +41,7 @@ export default function Header() {
                         </div>
                      </div>
                      <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
-                        <div className="header__right text-end d-flex align-items-center justify-content-end">
+                        {/* <div className="header__right text-end d-flex align-items-center justify-content-end">
                            <div className="header__right-btn d-none d-md-flex align-items-center">
                               <Link href="/sign-in"><a className="header__btn">login</a></Link>
                               <Link href="/sign-up"><a className="w-btn ml-45">sign up</a></Link>
@@ -53,7 +53,7 @@ export default function Header() {
                                  <span className="line"></span>
                               </div>
                            </div>
-                        </div>
+                        </div> */}
                      </div>
                      <div className={`sidebar__area ${!isToggled ? "" : "sidebar-opened"}`}>
                         <div className="sidebar__wrapper">

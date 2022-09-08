@@ -12,7 +12,7 @@ return (
            <div className="row align-items-end">
               <div className="col-xxl-4 col-lg-5 col-md-7">
                  <div className="section__title-wrapper mb-70 wow fadeInUp" data-wow-delay=".3s">
-                    <span className="section__pre-title purple">Features</span>
+                    <span className="section__pre-title purple">New Features</span>
                     <h2 className="section__title section__title-2">Check out our new features!</h2>
                  </div>
               </div>
