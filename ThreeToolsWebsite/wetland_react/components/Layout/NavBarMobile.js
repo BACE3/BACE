@@ -19,9 +19,9 @@ export default function NavBarMobile() {
                         <li><Link href="/services-details"><a>Details</a></Link></li>
                     </ul>
                 </li>
-                <li><Link href="https://github.com/oslabs-beta/BACE#readme"><a>GitHub</a></Link></li>
                 <li><Link href="/team"><a>Meet the Team</a></Link></li>
                 <li><Link href="/contact"><a>Contact</a></Link></li>
+                <li><a href="https://github.com/oslabs-beta/BACE#readme" target="_blank">GitHub</a></li>
             </ul>
             {/* <ul className="metismenu text-muted" id="metismenu">
                 <li className="has-dropdown">

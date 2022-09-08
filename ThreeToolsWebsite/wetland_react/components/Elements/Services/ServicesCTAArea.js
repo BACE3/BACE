@@ -20,7 +20,7 @@ export default function ServicesCTAArea() {
                               <input type="email" placeholder="Enter Your Email"/>
                               <button type="submit">Start Free Trial</button>
                            </form> */}
-                           <h3><Link href="https://github.com/oslabs-beta/BACE">Go to Github</Link></h3>
+                           <h3><a href="https://github.com/oslabs-beta/BACE" target="_blank">Go to Github</a></h3>
                         </div>
                         <div className="cta__features wow fadeInUp" data-wow-delay=".7s">
                            <ul>

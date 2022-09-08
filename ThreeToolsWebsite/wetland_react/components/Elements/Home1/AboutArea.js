@@ -23,7 +23,7 @@ export default function AboutArea() {
                            <li>Integrates Seamlessly With Other Chrome DevTools</li>
                            <li>Instantly See Your Three.js Objects and Alter Their Properties</li>
                         </ul>
-                        <Link href="https://github.com/oslabs-beta/BACE"><a className="w-btn w-btn-3 w-btn-1">Get Started</a></Link>
+                        <a className="w-btn w-btn-3 w-btn-1" href="https://github.com/oslabs-beta/BACE" target="_blank">Get Started</a>
                      </div>
                   </div>
                   <div className="col-xxl-6 offset-xxl-1 col-xl-6 col-lg-6 col-md-10 order-first order-lg-last">
