@@ -1,7 +1,7 @@
 // import Loading from "../components/layout/Loading";
 import AboutPageTitle from "../components/Elements/About/AboutPageTitle";
 import AboutAboutArea from "../components/Elements/About/AboutAboutArea";
-import AboutFAQArea from "../components/Elements/About/AboutFAQArea";
+// import AboutFAQArea from "../components/Elements/About/AboutFAQArea";
 import Layout from "../components/Layout/Layout";
 
 export default function About() {
@@ -11,7 +11,7 @@ export default function About() {
                 {/* Main-Body Started */}
                 <AboutPageTitle />
                 <AboutAboutArea />
-                <AboutFAQArea />
+                {/* <AboutFAQArea /> */}
                 {/* Main-Body Ended */}
             </Layout>
         </>
