@@ -9,23 +9,30 @@ export default function Accordion() {
     {
       title: "You have an error that you cannot describe or it is your first error",
       text:
-        "Looking to start an online store and youre not sure where to begin? I guide will help you to navigate Would you like to boost your Twitter profile.",
+        "Reload the page the extension, this will solve most problems",
       bg: "primary",
     },
     {
       title: "You cannot access three-tools in your chrome extension panel",
       text:
-        "Looking to start an online store and youre not sure where to begin? I guide will help you to navigate Would you like to boost your Twitter profile.",
+        "Exit out of chrome devtools inspector and re-enter",
 
       bg: "info",
     },
     {
-      title: "How to change font size in wordPress ?",
+      title: "You only see 'three-tools requires a page reload'",
       text:
-        "Looking to start an online store and youre not sure where to begin? I guide will help you to navigate Would you like to boost your Twitter profile.",
+        "Ensure your page utilizes three.js entities outside of iframes (three-tools will not recognize three.js objects inside iframes or work on pages without three.js entities)",
 
       bg: "success",
 
+    },
+    {
+      title: "You cannot type h into the searchbar",
+      text:
+        "Chrome extension has a bug where h cannot be typed into our extensions searchbar, use shift h in this case",
+
+      bg: "info",
     }
 
   ];

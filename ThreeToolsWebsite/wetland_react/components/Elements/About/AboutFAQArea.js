@@ -13,8 +13,8 @@ export default function AboutFAQArea() {
                   <div className="col-xxl-5 offset-xxl-1 col-xl-5 offset-xl-1 col-lg-6 col-md-8">
                      <div className="faq__content">
                         <div className="section__title-wrapper section__title-wrapper-2 mb-35 wow fadeInUp" data-wow-delay=".3s">
-                           <h2 className="section__title section__title-2">Troubleshooting</h2>
-                           <p>Don't hesitate to contact us!</p>
+                           <h2 className="section__title section__title-2">Troubleshooting Common Problems</h2>
+                           <p>Don't hesitate to contact us with any issues!</p>
                         </div>
                         {/* <div className="faq__counter wow fadeInUp" data-wow-delay=".5s">
                            <ul>
