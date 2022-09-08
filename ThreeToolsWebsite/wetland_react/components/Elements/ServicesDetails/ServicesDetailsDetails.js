@@ -24,8 +24,8 @@ export default function ServicesDetailsDetails() {
                                  <div className="services__widget-content">
                                     <div className="services__link">
                                           <ul>
-                                             <li><Link href="/services-details"><a>Getting Started</a></Link></li>
-                                             <li><Link href="/services-details"><a>Scenes & Cameras Panel</a></Link></li>
+                                             <li><Link href="#getting-started"><a>Getting Started</a></Link></li>
+                                             <li><Link href="#scenes-cameras"><a>Scenes & Cameras Panel</a></Link></li>
                                              <li><Link href="/services-details"><a>Geometries Panel</a></Link></li>
                                              <li><Link href="/services-details"><a>Materials Panel</a></Link></li>
                                              <li><Link href="/services-details"><a>Textures Panel</a></Link></li>
@@ -48,21 +48,21 @@ export default function ServicesDetailsDetails() {
                                     </div>
                                  </div>
                               </div> */}
-                              <div className="services__action grey-bg-20 mb-15 wow fadeInUp" data-wow-delay=".6s">
+                              {/* <div className="services__action grey-bg-20 mb-15 wow fadeInUp" data-wow-delay=".6s">
                                  <Link href="#"><a><i className="fal fa-download"></i>Download docs</a></Link>
                               </div>
                               <div className="services__action grey-bg-20 mb-15 wow fadeInUp" data-wow-delay=".6s">
                                  <Link href="#"><a><i className="fal fa-file-pdf"></i>Characteristics</a></Link>
-                              </div>
+                              </div> */}
                         </div>
                      </div>
                      <div className="col-xl-8 col-lg-8">
                         <div className="services__text">
-                              <h3 className="wow fadeInUp" data-wow-delay=".2s">Getting Started</h3>
+                              <h3 className="wow fadeInUp" id="getting-started" data-wow-delay=".2s">Getting Started</h3>
                               <p className="wow fadeInUp" data-wow-delay=".4s">The Three-tools UI is full of information but might be a bit overwhelming! Relevant information is separated into different panels for your convenience. Recommended starting points for learning how Three-tools can improve your productivity are listed below! </p>
                               <p className="wow fadeInUp" data-wow-delay=".6s">(NOTE: Within each panel, numbers and values can be typed or dragged to change)</p>
                         </div>
-                        <div className="services__text">
+                        <div className="services__text" id="scenes-cameras">
                               <h3 className="wow fadeInUp" data-wow-delay=".2s">Scenes & Cameras Panel</h3>
                               <p className="wow fadeInUp" data-wow-delay=".4s">View and change scene and camera properties </p>
                               <p className="wow fadeInUp" data-wow-delay=".6s">Click the dropdown menu of scenes and cameras to view different entity maps. Scenes and 3D objects are currently editable but camera properties are not able to be altered.</p>
