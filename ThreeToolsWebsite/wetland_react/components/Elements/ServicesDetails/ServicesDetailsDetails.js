@@ -8,6 +8,9 @@ export default function ServicesDetailsDetails() {
    const nestedTwoTabs = {
       marginLeft: '100px'
    }
+   const nestedThreeTabs = {
+      marginLeft: '150px'
+   }
     return (
         <section className="services__details pt-115 pb-100">
             <div className="container">
@@ -75,68 +78,125 @@ export default function ServicesDetailsDetails() {
                                  <li className="wow fadeInUp" data-wow-delay=".5s">Use the visibility icons to toggle entities on and off</li>
                                  <li className="wow fadeInUp" data-wow-delay=".6s">For Scenes and 3D Objects / Entities: </li>
                                     <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Developers can view the Type, UUID, and Name properties</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Developers can see the Transform and Rendering information and adjust those properties</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Within the Transform tab:</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>Adjust the position, rotation and scale</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>Use the Matrix Auto Update toggle to adjust whether or not changes are immediately reflected in the DOM</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>Click the Save button to save specific properties if you would like to go back to them</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>Click the Display Saved Data to open a popup of the saved specs as well as log those specs to your console</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Within the Rendering tab:</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>Adjust the Render Order</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>The visibility toggle here works the same way as the visibility icon</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>Adjust shadow properties</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>FOR ONLY SCENES:</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>A Background tab will be available to adjust the Background color if it has been set (currently no support for Background textures or the default null background)</li>
                                  <li className="wow fadeInUp" data-wow-delay=".7s">For Cameras:</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>View the Type, UUID, Name and type specific properties</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>These properties are not currently adjustable</li>
                               </ul>
                         </div>
                         <div className="services__text">
                               <h3 className="wow fadeInUp" data-wow-delay=".2s">Geometries Panel</h3>
-                              <p className="wow fadeInUp" data-wow-delay=".4s">Cheeky say horse play cup of char bubble and squeak blower pukka what a load of rubbish off his nut, a blinding shot pardon you young delinquent argy-bargy no biggie only a quid pardon me haggle, bleeding amongst the wireless easy peasy loo <span> <Link href="/about"><a>Charles I don&#39;t want no agro</a></Link></span>. Why gormless loo he lost his bottle wellies cup of tea pardon me lost the plot naff what a plonker, lurgy show off show off pick your nose and blow off super knackered smashing blower morish my lady, bodge codswallop bits and bobs bobby arse get stuffed mate down the pub mush. Eaton lavatory on your bike mate loo bugger all mate nancy boy me old mucker he legged it, twit vagabond pardon me cockup gormless buggered wellies, A bit of how&#39;s your father bum bag codswallop bleeder cracking goal absolutely bladdered.</p>
+                              <p className="wow fadeInUp" data-wow-delay=".4s">View and change geometry properties.</p>
+                              <p className="wow fadeInUp" data-wow-delay=".6s">Lists the Geometries / BufferGeometries rendered to the scene(s) available</p>
                         </div>
                         <div className="services__list mb-40">
                               <ul>
-                                 <li className="wow fadeInUp" data-wow-delay=".2s">Set up in minutes</li>
-                                 <li className="wow fadeInUp" data-wow-delay=".3s">Save time with Automations</li>
-                                 <li className="wow fadeInUp" data-wow-delay=".4s">Visualize work with Views</li>
-                                 <li className="wow fadeInUp" data-wow-delay=".5s">Customer support</li>
+                                 <li className="wow fadeInUp" data-wow-delay=".2s">Use the search bar to search for entities by Name or UUID (Note: UUID is not persistent and may change on reload)</li>
+                                 <li className="wow fadeInUp" data-wow-delay=".3s">Use the refresh button to reload the panel</li>
+                                 <li className="wow fadeInUp" data-wow-delay=".4s">Use the visibility icons to toggle the entities on and off</li>
+                                 <li className="wow fadeInUp" data-wow-delay=".5s">Select geometries from the list to see a list of their properties rendered on the right</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Type, UUID and Name</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Index</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Groups</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>If Groups is an array, it will be hyperlinked to open more information in a new tab</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Morph Targets Relative</li>
                               </ul>
                         </div>
                         <div className="services__text">
-                              <h4 className="wow fadeInUp" data-wow-delay=".6s">Why gormless loo he lost his bottle wellies cup of tea pardon me lost the plot naff what a plonker lurgy show off show off pick your nose and blow.</h4>
-                              <p className="wow fadeInUp" data-wow-delay=".8s">Horse play skive off I amongst bonnet hanky panky Richard brown bread grub I, sloshed nice one lavatory A bit of how&#39;s your father easy peasy daft jolly good is, spiffing golly gosh in my flat cup of char tomfoolery a vagabond James Bond. Mush down the pub victoria sponge zonked cracking goal off his nut the little rotter bits and bobs say starkers blower why I william give us a bell.</p>
-                        </div>
-                        <div className="services__text">
                               <h3 className="wow fadeInUp" data-wow-delay=".2s">Materials Panel</h3>
-                              <p className="wow fadeInUp" data-wow-delay=".4s">That brown bread spiffing nice one zonked spiffing good time loo so I said bite your arm off argy-bargy, skive off amongst chip shop hanky panky blow off blower it&#39;s your round sloshed, spend a penny mush pukka barmy Harry plastered gutted mate no biggie. Argy-bargy chap a blinding shot twit bits and bobs the wireless Oxford bamboozled pardon you cheers baking cakes mufty. </p>
+                              <p className="wow fadeInUp" data-wow-delay=".4s">View and change materials properties</p>
+                              <p className="wow fadeInUp" data-wow-delay=".6s">Lists the Materials rendered to the scene(s) available</p>
                         </div>
                         <div className="services__img mb-45 w-img wow fadeInUp" data-wow-delay=".6s">
                               <img src="/img/services/details/services-01.jpg" alt=""/>
                         </div>
                         <div className="services__list mb-40">
                               <ul>
-                                 <li className="wow fadeInUp" data-wow-delay=".2s">Set up in minutes</li>
-                                 <li className="wow fadeInUp" data-wow-delay=".3s">Save time with Automations</li>
-                                 <li className="wow fadeInUp" data-wow-delay=".4s">Visualize work with Views</li>
-                                 <li className="wow fadeInUp" data-wow-delay=".5s">Customer support</li>
+                                 <li className="wow fadeInUp" data-wow-delay=".2s">Use the search bar to search for entities by Name or UUID (Note: UUID is not persistent and may change on reload)</li>
+                                 <li className="wow fadeInUp" data-wow-delay=".3s">Use the refresh button to reload the panel</li>
+                                 <li className="wow fadeInUp" data-wow-delay=".4s">Use the visibility icons to toggle the entities on and off</li>
+                                 <li className="wow fadeInUp" data-wow-delay=".5s">Select Materials from the list to see a list of their properties</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Type, UUID and Name</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Color: adjustable by color map</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Materials Type Specific Properties</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>If null, not editable</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>Otherwise, can be adjusted</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Other nested tabs for more type specific properties</li>
                               </ul>
                         </div>
                         <div className="services__text">
                               <h3 className="wow fadeInUp" data-wow-delay=".2s">Textures Panel</h3>
-                              <p className="wow fadeInUp" data-wow-delay=".4s">That brown bread spiffing nice one zonked spiffing good time loo so I said bite your arm off argy-bargy, skive off amongst chip shop hanky panky blow off blower it&#39;s your round sloshed, spend a penny mush pukka barmy Harry plastered gutted mate no biggie. Argy-bargy chap a blinding shot twit bits and bobs the wireless Oxford bamboozled pardon you cheers baking cakes mufty. </p>
+                              <p className="wow fadeInUp" data-wow-delay=".4s">View and change textures properties</p>
+                              <p className="wow fadeInUp" data-wow-delay=".6s">Lists the Textures rendered to the scene(s) available</p>
                         </div>
                         <div className="services__img mb-45 w-img wow fadeInUp" data-wow-delay=".6s">
                               <img src="/img/services/details/services-01.jpg" alt=""/>
                         </div>
                         <div className="services__list mb-40">
                               <ul>
-                                 <li className="wow fadeInUp" data-wow-delay=".2s">Set up in minutes</li>
-                                 <li className="wow fadeInUp" data-wow-delay=".3s">Save time with Automations</li>
-                                 <li className="wow fadeInUp" data-wow-delay=".4s">Visualize work with Views</li>
-                                 <li className="wow fadeInUp" data-wow-delay=".5s">Customer support</li>
+                                 <li className="wow fadeInUp" data-wow-delay=".2s">Use the search bar to search for entities by Name or UUID (Note: UUID is not persistent and may change on reload)</li>
+                                 <li className="wow fadeInUp" data-wow-delay=".3s">Use the refresh button to reload the panel</li>
+                                 <li className="wow fadeInUp" data-wow-delay=".4s">Use the visibility icons to toggle the entities on and off </li>
+                                 <li className="wow fadeInUp" data-wow-delay=".5s">Select Textures from the list to see a list of their properties</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Changes to these properties are not fully supported</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Tabs:</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>Filters</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Min Filter -- dropdown menu of options</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Mag Filter -- dropdown menu of options</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedTwoTabs}>Wrapping</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Wrap S -- dropdown menu of options</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Wrap T -- dropdown menu of options</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedTwoTabs}>Transform</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Offset</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Repeat</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Rotation</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Center</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>matrixAutoUpdate</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Matrix</li>
                               </ul>
                         </div>
                         <div className="services__text">
                               <h3 className="wow fadeInUp" data-wow-delay=".2s">Renderer Panel</h3>
-                              <p className="wow fadeInUp" data-wow-delay=".4s">That brown bread spiffing nice one zonked spiffing good time loo so I said bite your arm off argy-bargy, skive off amongst chip shop hanky panky blow off blower it&#39;s your round sloshed, spend a penny mush pukka barmy Harry plastered gutted mate no biggie. Argy-bargy chap a blinding shot twit bits and bobs the wireless Oxford bamboozled pardon you cheers baking cakes mufty. </p>
+                              <p className="wow fadeInUp" data-wow-delay=".4s">View rendering info from the scenes available.</p>
+                              <p className="wow fadeInUp" data-wow-delay=".6s">Note: this information is not always correct due to the renderer.info not being properly reset.  If the information looks incorrect, please see the three.js renderer.info documentation for further information about manually resetting your renderer.info</p>
                         </div>
                         <div className="services__img mb-45 w-img wow fadeInUp" data-wow-delay=".6s">
                               <img src="/img/services/details/services-01.jpg" alt=""/>
                         </div>
                         <div className="services__list mb-40">
                               <ul>
-                                 <li className="wow fadeInUp" data-wow-delay=".2s">Set up in minutes</li>
-                                 <li className="wow fadeInUp" data-wow-delay=".3s">Save time with Automations</li>
-                                 <li className="wow fadeInUp" data-wow-delay=".4s">Visualize work with Views</li>
-                                 <li className="wow fadeInUp" data-wow-delay=".5s">Customer support</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".2s">Left panel: </li>
+                                          <li className="wow fadeInUp" data-wow-delay=".3s">Renderer tab tracks different data with a setInterval function to update every second.  This tab lists the information from WebGLRenderer.info.render</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".4s">frames</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".5s">draw calls</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>triangles</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>points</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedTwoTabs}>lines</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Memory tab tracks data from WebGLRenderer.info.memory</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>geometries</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedTwoTabs}>textures</li>
+                                                <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>programs</li>
+                                    <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Right panel: WebGLRenderer</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedTwoTabs}>Lists the type of renderer used, name and properties</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>(gammaFactor has been removed from THREE.WebGLRenderer so we removed that property)</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Tone Mapping</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Shadow Map</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}> Buffer Clearing</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Capabilities</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Clipping</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Scene</li>
+                                          <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Morph Limits</li>
                               </ul>
                         </div>
                      </div>
