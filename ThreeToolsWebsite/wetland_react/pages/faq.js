@@ -1,8 +1,7 @@
 // import Loading from "../components/layout/Loading";
 import Layout from "../components/Layout/Layout";
 import FAQTitle from "../components/Elements/FAQ/FAQTitle";
-import FAQArea from "../components/Elements/FAQ/FAQArea";
-import FAQPromotion from "../components/Elements/FAQ/FAQPromotion";
+import FAQArea from "../components/Elements/ServicesDetails/FAQArea";
 
 
 
@@ -13,7 +12,6 @@ export default function Blog() {
                 {/* Main-Body Started */}
                 <FAQTitle/>
                 <FAQArea/>
-                <FAQPromotion/>
                 {/* Main-Body Ended */}
             </Layout>
 

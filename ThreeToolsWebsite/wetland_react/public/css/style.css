@@ -3549,7 +3549,7 @@ textarea.form-control-lg {
   background-color: #ffffff;
   border: 0;
   border-radius: 0;
-  overflow-anchor: none;
+  overflow-anchor: auto;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease; }
   @media (prefers-reduced-motion: reduce) {
     .accordion-button {
@@ -3563,9 +3563,10 @@ textarea.form-control-lg {
       transform: rotate(-180deg); }
   .accordion-button::after {
     flex-shrink: 0;
-    width: 1.25rem;
+    width: 1.7rem;
     height: 1.25rem;
     margin-left: auto;
+    margin-right: auto;
     content: "";
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
     background-repeat: no-repeat;
@@ -3583,7 +3584,8 @@ textarea.form-control-lg {
     box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25); }
 
 .accordion-header {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 .accordion-item {
   background-color: #ffffff;
@@ -3613,7 +3615,7 @@ textarea.form-control-lg {
   border-width: 0; }
 
 .accordion-flush .accordion-item {
-  border-right: 0;
+  border-right: 0.2;
   border-left: 0;
   border-radius: 0; }
   .accordion-flush .accordion-item:first-child {
@@ -10614,6 +10616,8 @@ p {
     box-shadow: 0px 40px 70px 0px rgba(1, 19, 44, 0.08);
     border-radius: 20px;
     position: relative;
+    width: 100%;
+    height: auto;
     z-index: 1; }
   .services__item-3 {
     padding: 40px 75px;
@@ -10704,6 +10708,7 @@ p {
     margin-bottom: 13px; }
     .services__title-2 a:hover {
       color: #2f80ed; }
+    
   .services__title-3 {
     color: #0a0030;
     font-size: 22px;
@@ -10749,6 +10754,11 @@ p {
 
 .services__content-2 p {
   margin-bottom: 0; }
+
+.hyperlink:hover {
+  text-decoration: underline;
+  color: lightskyblue;
+}
 
 .services__content-3 p {
   font-size: 15px;
@@ -10885,6 +10895,18 @@ p {
   font-weight: 600;
   margin-bottom: 20px;
   line-height: 1.5; }
+
+#getting-started {
+  scroll-margin-top: 250px;
+}
+
+#scenes-cameras {
+  scroll-margin-top: 120px;
+}
+
+#geometries, #materials, #textures, #renderer {
+  scroll-margin-top: 140px;
+}
 
 .services__list ul li {
   font-size: 16px;
@@ -12783,7 +12805,7 @@ p {
   border-radius: 6px; }
 
 .team__thumb img {
-  height: 350px;
+  height: 370px;
   border-radius: 6px; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .team__thumb img {
@@ -13005,24 +13027,27 @@ p {
   @media (max-width: 575px) {
     .faq__wrapper {
       padding-left: 15px;
-      padding-right: 15px; } }
+      padding-right: 20px; } }
   .faq__wrapper .accordion-item {
     padding-top: 35px;
     padding-bottom: 35px;
     border-bottom: 1px solid #eaedff;
-    border-right: none;
+    border-right: 20px;
     border-left: none;
     border-top: none; }
     .faq__wrapper .accordion-item.border-none {
       border-bottom: none;
       padding-bottom: 35px; }
     .faq__wrapper .accordion-item .accordion-header .accordion-button {
-      font-size: 18px;
+      font-size: 17px;
       font-weight: 600;
+      width: 35rem;
       color: #021937;
       border: none;
       padding: 0;
       background: none;
+      text-overflow: clip;
+      white-space: none;
       text-align: left; }
       @media (max-width: 575px) {
         .faq__wrapper .accordion-item .accordion-header .accordion-button {
@@ -15304,6 +15329,21 @@ p {
   .footer__shape img.footer-2-circle-2 {
     top: -7%;
     right: 0; }
+
+.footer__pl-30 {
+  padding-left: 30px; }
+  @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .footer__pl-30 {
+      padding-left: 70px; } }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .footer__pl-30 {
+      padding-left: 0px; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .footer__pl-30 {
+      padding-left: 0px; } }
+  @media (max-width: 575px) {
+    .footer__pl-30 {
+      padding-left: 0px; } }
 
 .footer__pl-70 {
   padding-left: 70px; }

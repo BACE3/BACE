@@ -20,7 +20,7 @@ export default function ServicesDetailsTitle() {
                         <nav aria-label="breadcrumb">
                            <ol className="breadcrumb justify-content-center">
                               <li className="breadcrumb-item"><Link href="/"><a>Home</a></Link></li>
-                              <li className="breadcrumb-item active" aria-current="page">Documentation</li>
+                              <li className="breadcrumb-item active" aria-current="page">Details</li>
                            </ol>
                         </nav>
                     </div>

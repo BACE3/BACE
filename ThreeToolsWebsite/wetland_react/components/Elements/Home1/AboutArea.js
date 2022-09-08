@@ -14,7 +14,7 @@ export default function AboutArea() {
             <div className="container">
                <div className="row align-items-center">
                   <div className="col-xxl-5 col-xl-6 col-lg-6 col-md-9">
-                     <div className="about__wrapper mb-10">
+                     <div className="about__wrapper mt-150 mb-10">
                         <div className="section__title-wrapper mb-25">
                            <h2 className="section__title">Three-tools: The Perfect Solution to Your Three.js Bugs</h2>
                            <p>Trouble debugging your three.js code?  Use Three-tools!</p>
@@ -23,16 +23,16 @@ export default function AboutArea() {
                            <li>Integrates Seamlessly With Other Chrome DevTools</li>
                            <li>Instantly See Your Three.js Objects and Alter Their Properties</li>
                         </ul>
-                        <a className="w-btn w-btn-3 w-btn-1" href="https://github.com/oslabs-beta/BACE" target="_blank">Get Started</a>
+                        {/* <a className="w-btn w-btn-3 w-btn-1" href="https://github.com/oslabs-beta/BACE" target="_blank">Get Started</a> */}
                      </div>
                   </div>
                   <div className="col-xxl-6 offset-xxl-1 col-xl-6 col-lg-6 col-md-10 order-first order-lg-last">
                      <div className="about__thumb-wrapper p-relative ml-40 fix text-end">
-                        <img src="/img/about/home-1/about-bg.png" alt=""/>
-                        <div className="about__thumb p-absolute">
+                        <img src="/img/about/home-3/about-circle.png" style={{ width: '100%', height: '100%'}} alt=""/>
+                        {/* <div className="about__thumb p-absolute">
                            <img className="bounceInUp wow about-big" data-wow-delay=".3s" src="/img/about/home-1/about-1.png" alt=""/>
                            <img className="about-sm" src="/img/about/home-1/about-1-1.png" alt=""/>
-                        </div>
+                        </div> */}
                      </div>
                   </div>
                </div>
@@ -47,19 +47,19 @@ export default function AboutArea() {
          </div>
          <div className="container">
             <div className="row align-items-center">
-               <div className="col-xxl-6 col-xl-6 col-lg-6">
-                  <div className="about__thumb-wrapper p-relative ml--30 fix mr-70">
+               {/* <div className="col-xxl-6 col-xl-6 col-lg-6"> */}
+                  {/* <div className="about__thumb-wrapper p-relative ml--30 fix mr-70">
                      <img src="/img/about/home-1/about-bg-2.png" alt=""/>
                      <div className="about__thumb about__thumb-2 p-absolute wow fadeInUp" data-wow-delay=".3s">
                         <img className="about-big bounceInUp wow" data-wow-delay=".5s" src="/img/about/home-1/about-2.png" alt=""/>
                         <img className="about-sm about-sm-2"  src="/img/about/home-1/about-2-1.png" alt=""/>
                      </div>
-                  </div>
-               </div>
+                  </div> */}
+               {/* </div> */}
                <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-9">
-                  <div className="about__wrapper about__wrapper-2 ml-60 mb-30">
+                  <div className="about__wrapper about__wrapper-2 mt-100 mb-100">
                      <div className="section__title-wrapper mb-25">
-                        <h2 className="section__title">Best Developer's Tool for Three.js</h2>
+                        <h2 className="section__title">Best Developer Tool for Three.js</h2>
                         <p>View Scenes, 3D Objects, Cameras, Geometries, Textures and Materials!</p>
                      </div>
                      <ul>

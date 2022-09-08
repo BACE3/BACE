@@ -19,7 +19,7 @@ export default function ContactTitle() {
                         <h3>Contact </h3>
                            <nav aria-label="breadcrumb">
                               <ol className="breadcrumb justify-content-center">
-                                 <li className="breadcrumb-item"><Link href="/index"><a>Home</a></Link></li>
+                                 <li className="breadcrumb-item"><Link href="/"><a>Home</a></Link></li>
                                  <li className="breadcrumb-item active" aria-current="page">Contact</li>
                               </ol>
                            </nav>
