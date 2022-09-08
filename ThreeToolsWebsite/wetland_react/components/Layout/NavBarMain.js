@@ -9,7 +9,7 @@ export default function NavBarMain() {
                 <li className="has-dropdown">
                     <Link href="/about"><a>Our Story</a></Link> {/* Documentation */}
                     <ul className="submenu">
-                        <li><Link href="/about"><a>About</a></Link></li>
+                        <li><Link href="/about"><a>About Us</a></Link></li>
                         <li><Link href="/team"><a>Meet the Team</a></Link></li>
                     </ul>
                 </li>

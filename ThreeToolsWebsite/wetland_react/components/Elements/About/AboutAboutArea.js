@@ -10,7 +10,11 @@ export default function AboutAboutArea() {
                      <div className="about__wrapper about__wrapper-2 mb-20">
                         <div className="section__title-wrapper mb-25 wow fadeInUp" data-wow-delay=".3s">
                            <h2 className="section__title">Our Story</h2>
-                           <p>We are passionate about working through and solving tough engineering problems.  Since Three-devtools has been deprecated, we listened to the community and updated the previous tool to be compatible with Chrome and created new functionality to enhance the developer experience.</p>
+                           <p>
+                              We are passionate about working through and solving tough engineering problems. 
+                              Since Three-devtools has been deprecated, we listened to the community and updated 
+                              the previous tool to be compatible with Chrome and created new functionality to enhance the developer experience.
+                           </p>
                         </div>
                         <ul className="wow fadeInUp" data-wow-delay=".5s">
                            <li>Update Three.js version and Chrome compatibility</li>
@@ -22,7 +26,7 @@ export default function AboutAboutArea() {
                   </div>
                   <div className="col-xxl-6 offset-xxl-1 col-xl-6 col-lg-6 wow fadeInRight" data-wow-delay=".7s">
                      <div className="about__thumb-wrapper-2 ml-40 p-relative m-img">
-                        <img src="/img/about/about-img.jpg" alt=""/>
+                        <img src="/img/about/home-2/about-1.png" alt=""/>
                      </div>
                   </div>
                </div>

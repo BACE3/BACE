@@ -3541,7 +3541,7 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   align-items: center;
-  width: 110%;
+  width: 100%;
   padding: 1rem 1.25rem;
   font-size: 1rem;
   color: #212529;
@@ -10755,6 +10755,11 @@ p {
 .services__content-2 p {
   margin-bottom: 0; }
 
+.hyperlink:hover {
+  text-decoration: underline;
+  color: lightskyblue;
+}
+
 .services__content-3 p {
   font-size: 15px;
   font-weight: 600;
@@ -10890,6 +10895,18 @@ p {
   font-weight: 600;
   margin-bottom: 20px;
   line-height: 1.5; }
+
+#getting-started {
+  scroll-margin-top: 250px;
+}
+
+#scenes-cameras {
+  scroll-margin-top: 120px;
+}
+
+#geometries, #materials, #textures, #renderer {
+  scroll-margin-top: 140px;
+}
 
 .services__list ul li {
   font-size: 16px;
@@ -13022,9 +13039,9 @@ p {
       border-bottom: none;
       padding-bottom: 35px; }
     .faq__wrapper .accordion-item .accordion-header .accordion-button {
-      font-size: 15px;
+      font-size: 17px;
       font-weight: 600;
-      /* width: 550px; */
+      width: 35rem;
       color: #021937;
       border: none;
       padding: 0;

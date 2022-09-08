@@ -26,15 +26,15 @@ export default function AboutArea() {
                         {/* <a className="w-btn w-btn-3 w-btn-1" href="https://github.com/oslabs-beta/BACE" target="_blank">Get Started</a> */}
                      </div>
                   </div>
-                  {/* <div className="col-xxl-6 offset-xxl-1 col-xl-6 col-lg-6 col-md-10 order-first order-lg-last">
+                  <div className="col-xxl-6 offset-xxl-1 col-xl-6 col-lg-6 col-md-10 order-first order-lg-last">
                      <div className="about__thumb-wrapper p-relative ml-40 fix text-end">
-                        <img src="/img/about/home-1/about-bg.png" alt=""/>
-                        <div className="about__thumb p-absolute">
+                        <img src="/img/about/home-3/about-circle.png" style={{ width: '100%', height: '100%'}} alt=""/>
+                        {/* <div className="about__thumb p-absolute">
                            <img className="bounceInUp wow about-big" data-wow-delay=".3s" src="/img/about/home-1/about-1.png" alt=""/>
                            <img className="about-sm" src="/img/about/home-1/about-1-1.png" alt=""/>
-                        </div>
+                        </div> */}
                      </div>
-                  </div> */}
+                  </div>
                </div>
             </div>
          </section>

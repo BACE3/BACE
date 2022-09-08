@@ -33,7 +33,7 @@ export default function ServicesServicesArea() {
                            </div>
                            <div className="services__content-2">
                               <h3 className="services__title-2"><Link href="/services-details"><a>Documentation</a></Link></h3>
-                              <p className="documentation-feature"><a href="/services" target="_blank">Our documentation</a> provides an in-depth explanation of our key features.</p>
+                              <p className="documentation-feature">Our<a className="hyperlink" href="/services" target="_blank"> documentation</a> provides an in-depth explanation of our key features.</p>
                            </div>
                         </div>
                      </div>
@@ -46,7 +46,7 @@ export default function ServicesServicesArea() {
                            </div>
                            <div className="services__content-2">
                               <h3 className="services__title-2"><Link href="https://github.com/oslabs-beta/BACE"><a>Github</a></Link></h3>
-                              <p className="contribute-policy">Create new branches and open pull requests to contribute. Check out our <a href="https://github.com/oslabs-beta/BACE#to-contribute" target="_blank">contribution policy outlined in our GitHub repository!</a></p>
+                              <p className="contribute-policy">Create new branches and open pull requests to contribute. Check out our <a className="hyperlink" href="https://github.com/oslabs-beta/BACE#to-contribute" target="_blank">contribution policy</a> outlined in our GitHub repository!</p>
                            </div>
                         </div>
                      </div>

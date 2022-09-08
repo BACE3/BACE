@@ -74,7 +74,7 @@ export default function Footer({className}) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.1s">
+                        <div className="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="1.1s">
                             <div className="footer__widget mb-50 float-md-end fix">
                                 <div className="footer__widget-title mb-25">
                                     <h3>Follow Us</h3>

@@ -24,12 +24,12 @@ export default function ServicesDetailsDetails() {
                                  <div className="services__widget-content">
                                     <div className="services__link">
                                           <ul>
-                                             <li><Link href="#getting-started"><a>Getting Started</a></Link></li>
-                                             <li><Link href="#scenes-cameras"><a>Scenes & Cameras Panel</a></Link></li>
-                                             <li><Link href="/services-details"><a>Geometries Panel</a></Link></li>
-                                             <li><Link href="/services-details"><a>Materials Panel</a></Link></li>
-                                             <li><Link href="/services-details"><a>Textures Panel</a></Link></li>
-                                             <li><Link href="/services-details"><a>Renderer Panel</a></Link></li>
+                                             <li><Link href="/services-details#getting-started"><a>Getting Started</a></Link></li>
+                                             <li><Link href="/services-details#scenes-cameras"><a>Scenes & Cameras Panel</a></Link></li>
+                                             <li><Link href="/services-details#geometries"><a>Geometries Panel</a></Link></li>
+                                             <li><Link href="/services-details#materials"><a>Materials Panel</a></Link></li>
+                                             <li><Link href="/services-details#textures"><a>Textures Panel</a></Link></li>
+                                             <li><Link href="/services-details#renderer"><a>Renderer Panel</a></Link></li>
                                           </ul>
                                     </div>
                                  </div>
@@ -57,8 +57,8 @@ export default function ServicesDetailsDetails() {
                         </div>
                      </div>
                      <div className="col-xl-8 col-lg-8">
-                        <div className="services__text">
-                              <h3 className="wow fadeInUp" id="getting-started" data-wow-delay=".2s">Getting Started</h3>
+                        <div className="services__text" id="getting-started">
+                              <h3 className="wow fadeInUp" data-wow-delay=".2s">Getting Started</h3>
                               <p className="wow fadeInUp" data-wow-delay=".4s">The Three-tools UI is full of information but might be a bit overwhelming! Relevant information is separated into different panels for your convenience. Recommended starting points for learning how Three-tools can improve your productivity are listed below! </p>
                               <p className="wow fadeInUp" data-wow-delay=".6s">(NOTE: Within each panel, numbers and values can be typed or dragged to change)</p>
                         </div>
@@ -69,7 +69,7 @@ export default function ServicesDetailsDetails() {
                         </div>
                         <div className="services__img mb-45 w-img wow fadeInUp" data-wow-delay=".6s">
                               <img src="/img/services/details/services-01.png" alt=""/>
-                              <p style={{ fontSize: '11px' }}><a href="https://threejs.org/examples/webgl_animation_multiple.html" target="_blank">Credits to three.js Project Sample. Click for more info.</a></p>
+                              <p style={{ fontSize: '11px' }}>Credits to <a className="hyperlink" href="https://threejs.org/examples/webgl_animation_multiple.html" target="_blank">three.js Project Sample.</a> Click for more info.</p>
                         </div>
                         <div className="services__list mb-40">
                               <ul>
@@ -96,7 +96,7 @@ export default function ServicesDetailsDetails() {
                                     <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>These properties are not currently adjustable</li>
                               </ul>
                         </div>
-                        <div className="services__text">
+                        <div className="services__text" id="geometries">
                               <h3 className="wow fadeInUp" data-wow-delay=".2s">Geometries Panel</h3>
                               <p className="wow fadeInUp" data-wow-delay=".4s">View and change geometry properties.</p>
                               <p className="wow fadeInUp" data-wow-delay=".6s">Lists the Geometries / BufferGeometries rendered to the scene(s) available</p>
@@ -114,14 +114,14 @@ export default function ServicesDetailsDetails() {
                                     <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Morph Targets Relative</li>
                               </ul>
                         </div>
-                        <div className="services__text">
+                        <div className="services__text" id="materials">
                               <h3 className="wow fadeInUp" data-wow-delay=".2s">Materials Panel</h3>
                               <p className="wow fadeInUp" data-wow-delay=".4s">View and change materials properties</p>
                               <p className="wow fadeInUp" data-wow-delay=".6s">Lists the Materials rendered to the scene(s) available</p>
                         </div>
                         <div className="services__img mb-45 w-img wow fadeInUp" data-wow-delay=".6s">
                               <img src="/img/services/details/services-02.png" alt=""/>
-                              <p style={{ fontSize: '11px' }}><a href="https://threejs.org/examples/webgl_animation_multiple.html" target="_blank">Credits to three.js Project Sample. Click for more info.</a></p>
+                              <p style={{ fontSize: '11px' }}>Credits to<a className="hyperlink" href="https://threejs.org/examples/webgl_animation_keyframes.html" target="_blank"> three.js Project Sample.</a> Click for more info.</p>
                         </div>
                         <div className="services__list mb-40">
                               <ul>
@@ -137,14 +137,14 @@ export default function ServicesDetailsDetails() {
                                     <li className="wow fadeInUp" data-wow-delay=".6s" style={nestedOneTab}>Other nested tabs for more type specific properties</li>
                               </ul>
                         </div>
-                        <div className="services__text">
+                        <div className="services__text" id="textures">
                               <h3 className="wow fadeInUp" data-wow-delay=".2s">Textures Panel</h3>
                               <p className="wow fadeInUp" data-wow-delay=".4s">View and change textures properties</p>
                               <p className="wow fadeInUp" data-wow-delay=".6s">Lists the Textures rendered to the scene(s) available</p>
                         </div>
                         <div className="services__img mb-45 w-img wow fadeInUp" data-wow-delay=".6s">
                               <img src="/img/services/details/services-03.png" alt=""/>
-                              <p style={{ fontSize: '11px' }}><a href="https://threejs.org/examples/webgl_animation_multiple.html" target="_blank">Credits to three.js Project Sample. Click for more info.</a></p>
+                              <p style={{ fontSize: '11px' }}>Credits to <a className="hyperlink" href="https://threejs.org/examples/webgl_geometries.html" target="_blank">three.js Project Sample.</a> Click for more info.</p>
                         </div>
                         <div className="services__list mb-40">
                               <ul>
@@ -169,14 +169,14 @@ export default function ServicesDetailsDetails() {
                                                 <li className="wow fadeInUp" data-wow-delay=".8s" style={nestedThreeTabs}>Matrix</li>
                               </ul>
                         </div>
-                        <div className="services__text">
+                        <div className="services__text" id="renderer">
                               <h3 className="wow fadeInUp" data-wow-delay=".2s">Renderer Panel</h3>
                               <p className="wow fadeInUp" data-wow-delay=".4s">View rendering info from the scenes available.</p>
                               <p className="wow fadeInUp" data-wow-delay=".6s">Note: this information is not always correct due to the renderer.info not being properly reset.  If the information looks incorrect, please see the three.js renderer.info documentation for further information about manually resetting your renderer.info</p>
                         </div>
                         <div className="services__img mb-45 w-img wow fadeInUp" data-wow-delay=".6s">
                               <img src="/img/services/details/services-04.png" alt=""/>
-                              <p style={{ fontSize: '11px' }}><a href="https://threejs.org/examples/webgl_animation_multiple.html" target="_blank">Credits to three.js Project Sample. Click for more info.</a></p>
+                              <p style={{ fontSize: '11px' }}>Credits to <a className="hyperlink" href="https://threejs.org/examples/webgl_morphtargets_horse.html" target="_blank">three.js Project Sample.</a> Click for more info.</p>
                         </div>
                         <div className="services__list mb-40">
                               <ul>
